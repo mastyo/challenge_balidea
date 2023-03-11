@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implementation of hook_theme
+ */
+function challenge_balidea_theme() {
+  return [
+	'config_info_page' => [
+	  'render element' => 'form',
+	],
+  ];
+}
+
+/**
+ * Implementation of hook_preprocess_html
+ */
+function challenge_balidea_preprocess_html(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node) {
+	$variables['attributes']['class'][] = $node->getType();
+  }
+}

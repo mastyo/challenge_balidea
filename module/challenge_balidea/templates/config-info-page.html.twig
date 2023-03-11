@@ -1,0 +1,3 @@
+<p style="color:red;">{{ 'Information text'|trans }}: {{ form.text }}</p>
+<p style="color:blue;">{{ 'Integer'|trans }}: {{ form.number }}</p>
+{{ form|without('text', 'number') }}

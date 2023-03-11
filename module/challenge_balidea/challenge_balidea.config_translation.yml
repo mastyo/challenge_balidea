@@ -1,0 +1,5 @@
+challenge_balidea.admin.config:
+  title: 'Challenge balidea'
+  base_route_name: challenge_balidea.config_form_example
+  names:
+    - challenge_balidea.settings

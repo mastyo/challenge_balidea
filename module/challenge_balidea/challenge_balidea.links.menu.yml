@@ -1,0 +1,4 @@
+challenge_balidea.config_info_link:
+  title: 'Config Form Info'
+  menu_name: 'main'
+  route_name: challenge_balidea.config_info

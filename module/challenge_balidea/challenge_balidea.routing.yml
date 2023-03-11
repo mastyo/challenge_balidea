@@ -1,0 +1,17 @@
+challenge_balidea.config_info:
+  path: '/config-info'
+  defaults:
+    _controller:  '\Drupal\challenge_balidea\Controller\ConfigInfoPage::return'
+    _title: 'Config Info'
+  requirements:
+    _role: authenticated
+
+challenge_balidea.config_form_example:
+  path: '/admin/config/config-form-example'
+  parent: system.admin_config
+  description: 'Configure what block content appears in your site''s sidebars and other regions.'
+  defaults:
+    _form:  '\Drupal\challenge_balidea\Form\ConfigFormExample'
+    _title: 'Config Form Example'
+  requirements:
+    _role: authenticated

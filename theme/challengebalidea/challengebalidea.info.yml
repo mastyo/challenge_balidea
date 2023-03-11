@@ -1,0 +1,11 @@
+name: Challenge Balidea
+type: theme
+description: 'Challenge Balidea Theme'
+package: Other
+core_version_requirement: ^8 || ^9
+base theme: classy
+libraries:
+  - challengebalidea/global-styling
+version: '1.x'
+project: 'challengebalidea'
+datestamp: 1678475079

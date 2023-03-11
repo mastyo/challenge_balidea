@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function challengebalidea_page_attachments_alter(array &$attachments) {
+  $config = \Drupal::config('system.site');
+  $attachments['#attached']['drupalSettings']['systemSite']['siteName'] = $config->get('name');
+}

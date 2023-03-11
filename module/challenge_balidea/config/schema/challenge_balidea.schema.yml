@@ -1,0 +1,18 @@
+# Schema for the configuration files of the System module.
+
+challenge_balidea.settings:
+  type: config_object
+  mapping:
+    text:
+      type: mapping
+      label: 'Form fields'
+      mapping:
+        value:
+          type: text
+          label: 'Information text'
+        format:
+          type: text
+          label: 'Information text format'
+    number:
+      type: integer
+      label: 'Integer'

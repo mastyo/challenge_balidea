@@ -1,0 +1,11 @@
+name: Challenge Balidea
+type: module
+core_version_requirement: ^8 || ^9
+description: Test module for "challenge" in the process of entering Balidea
+package: Custom
+version: '1.x'
+project: 'challenge_balidea'
+datestamp: 1678401930
+configure: challenge_balidea.config_form_example
+'interface translation project': 'challenge_balidea'
+'interface translation server pattern': 'modules/custom/challenge_balidea/translations/challenge_balidea-es.po'

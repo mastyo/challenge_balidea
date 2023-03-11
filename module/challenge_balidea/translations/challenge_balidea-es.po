@@ -1,0 +1,23 @@
+msgid "Integer"
+msgstr "Número entero"
+
+msgid "Config Form Example"
+msgstr "Ejemplo de formulario de configuración"
+
+msgid "Test module for "challenge" in the process of entering Balidea"
+msgstr "Modulo de prueba para "chalenge" en proceso de ingreso para Balidea"
+
+msgid "Information text"
+msgstr "Texto informativo"
+
+msgid "Config Info"
+msgstr "Información de configuración"
+
+msgid "Config Form Info"
+msgstr "Información del Formulario de Configuración"
+
+msgid "Challenge Balidea Settings"
+msgstr "Configuracion de 'Challenge Balidea'"
+
+msgid "Alert Button"
+msgstr "Botón de Alerta"

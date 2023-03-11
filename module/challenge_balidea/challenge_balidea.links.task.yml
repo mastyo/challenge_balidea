@@ -1,0 +1,4 @@
+challenge_balidea.config:
+  route_name: challenge_balidea.config_form_example
+  title: Config Form Example
+  base_route: challenge_balidea.config_form_example
