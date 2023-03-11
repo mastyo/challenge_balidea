@@ -1,0 +1,1 @@
+Tanto el tema como el modulo estan condicionados para Drupal 8 y 9, sin embargo hay acciones en javascript que mejoran en Drupal 9 a la hora de ejecutar una accion solo una vez y el tema Classy esta descartado a partir de Drupal 9
